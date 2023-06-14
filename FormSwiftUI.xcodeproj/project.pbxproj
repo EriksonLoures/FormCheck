@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640761D32A395622001DB2FB /* Toggle+CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640761D22A395622001DB2FB /* Toggle+CheckBoxStyle.swift */; };
 		648402C22A2BBD390075E0A9 /* FormSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648402C12A2BBD390075E0A9 /* FormSwiftUIApp.swift */; };
 		648402C42A2BBD390075E0A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648402C32A2BBD390075E0A9 /* ContentView.swift */; };
 		648402C62A2BBD3A0075E0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648402C52A2BBD3A0075E0A9 /* Assets.xcassets */; };
 		648402C92A2BBD3A0075E0A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648402C82A2BBD3A0075E0A9 /* Preview Assets.xcassets */; };
+		648402D02A2BC2350075E0A9 /* CreateContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648402CF2A2BC2350075E0A9 /* CreateContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640761D22A395622001DB2FB /* Toggle+CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toggle+CheckBoxStyle.swift"; sourceTree = "<group>"; };
 		648402BE2A2BBD390075E0A9 /* FormSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648402C12A2BBD390075E0A9 /* FormSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSwiftUIApp.swift; sourceTree = "<group>"; };
 		648402C32A2BBD390075E0A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		648402C52A2BBD3A0075E0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		648402C82A2BBD3A0075E0A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		648402CF2A2BC2350075E0A9 /* CreateContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				648402C12A2BBD390075E0A9 /* FormSwiftUIApp.swift */,
 				648402C32A2BBD390075E0A9 /* ContentView.swift */,
+				648402CF2A2BC2350075E0A9 /* CreateContactView.swift */,
+				640761D22A395622001DB2FB /* Toggle+CheckBoxStyle.swift */,
 				648402C52A2BBD3A0075E0A9 /* Assets.xcassets */,
 				648402C72A2BBD3A0075E0A9 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				648402C42A2BBD390075E0A9 /* ContentView.swift in Sources */,
+				648402D02A2BC2350075E0A9 /* CreateContactView.swift in Sources */,
+				640761D32A395622001DB2FB /* Toggle+CheckBoxStyle.swift in Sources */,
 				648402C22A2BBD390075E0A9 /* FormSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
